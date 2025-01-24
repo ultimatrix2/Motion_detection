@@ -50,7 +50,7 @@ const video = document.getElementById('video');
                 });
             }
 
-            previousFrame = currentFrame.slice(); arison
+            previousFrame = currentFrame.slice(); 
             requestAnimationFrame(renderFrame);
         }
 
